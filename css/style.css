@@ -6,6 +6,7 @@
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    /* block3 css starts here */
    .block3-container{
           
@@ -263,8 +264,78 @@ flex-wrap: wrap;
  line-height: 22px;
  color:#111111;
  background-color:#f1c50e;
-}
+=======
+   /* block7 css starts here */
+   .block7-container{
+    height: 509px;
+    width:100%;
+    display: flex;
 
+}
+.blk7-header-container1{
+    width: 50%;
+    height: 509px;
+    background-image: url(../img/block7-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    
+}
+.blk7-heading3{
+    width:505px;
+    margin:87px 0px 0px 76px;
+    font-family: roboto, sans-sefif;
+    font-size:20px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:24px;
+    color:#ffffff;
+
+}
+.blk7-heading2{
+    width:505px;
+    margin:20px 0px 0px 76px;
+    font-family: lora; sefif;
+    font-size:48px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:53px;
+    color:#ffffff;
+
+}
+.blk7-paragraph{
+    width:505px;
+    margin:20px 0px 0px 76px;
+    font-family: open sans, sans-sefif;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:26px;
+    color:#ffffff;
+
+    
+}
+.blk7-header-container2{
+    width: 50%;
+    height: 509px;
+    background-image: url(../img/block7-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    
+>>>>>>> footer-block-7
+}
+.social-icon{
+    width:230px;
+    margin:20px auto 118px 76px;
+    font-family: open sans, sans-sefif;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:0px;
+   
+
+<<<<<<< HEAD
 .img-container1{
     background-image: url(../img/block5-1.jpeg);
     background-size: cover;
@@ -419,6 +490,28 @@ flex-wrap: wrap;
 
 /* block 6 css ends here */
 >>>>>>> body-block5-6
+=======
+
+}
+.fa{
+    padding:5px;
+    font-size: 16px;
+    background-color: #111111;
+    color:#e6a483;
+    text-decoration: none;
+    border-radius: 50%;
+    
+
+}
+.footer-text{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height: 40px;
+    padding:10px;
+}
+/* block 7 css ends here */
+>>>>>>> footer-block-7
 
 
  
