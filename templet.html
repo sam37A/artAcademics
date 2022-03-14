@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link  css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- external css link -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+
+    <title>Home page</title>
+
+   
+    
+    <style>
+        *{
+          margin:  0;
+          padding: 0;
+          box-sizing: border-box;
+         
+        }
+
+         /* block1 css starts here */
+         .block1-container{
+            height: 761px;
+           width: 100%;
+            background-image: url(./img/hero.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          background-position: center;
+        }
+      
+       .image-container{
+          
+        display: flex;
+        
+        align-items:end;
+        
+       }
+       .blk1-header-container{
+          
+            padding: 20px;
+            align-items: end;
+          height: 421px;
+          width: 721px;
+          margin: 340px auto 0  0;
+          
+          
+         
+          }
+          .overview-title{
+             width: 681px;
+             margin: 40px 20px 0px 54px;
+             
+             font-family: sans-serif;
+             font-size: 36px;
+             font-style: normal;
+             font-weight: 400px;
+             line-height: 40px;
+             color: #ffffff;
+          } 
+          .school-name{
+            width: 681px;
+             margin: 0px 20px 0px 54px;
+            
+             font-family: sans-serif;
+             font-size: 96px;
+             line-height: 106px;
+             font-style: normal;
+             font-weight: 400px;
+             
+             color: #ffffff;
+          }
+          .intro-text{
+            width: 515px;
+             margin: 20px 186px 40px 54px;
+            
+             font-family: sans-serif;
+             font-size: 16px;
+             line-height: 26px;
+             font-style: normal;
+             font-weight: 400px;
+             color: #ffffff;
+          }
+       
+       /* block 1 css ends here */
+      
+       /* block2 css starts here */
+       .block2-container{
+           height: 485px;
+           width: 100%;
+           display: flex;
+          
+           
+       }
+       .blk2-content-container1{
+           width: 25%;
+           background-color: #478ac9;
+           padding:20px;
+       }
+       .blk2-content-container2{
+           width: 50%;
+           background-color: #db545a;
+           padding:20px;
+       }
+       .blk2-content-container3{
+           width: 25%;
+          background-color: #478ac9;
+       }
+       .blk2-img{
+          width: 100%; 
+          height: 485px;
+       }
+
+       .zero-one{
+            width: 270px;
+             margin: 150px 0px 150px 58px;
+             font-family: sans-serif;
+             font-size: 168px;
+             line-height: 185px;
+             font-style: normal;
+             font-weight: 400px;
+             color: #ffffff; 
+             
+       }
+       .blk2-about-us{
+             width: 580px;
+             margin-top:33px;
+             font-family: sans-serif;
+             font-size: 30px;
+             line-height: 36px;
+             font-style: normal;
+             font-weight: 400px;
+             color: #ffffff; 
+            
+       }
+       .blk2-heading2{
+             width: 580px;
+             margin-top: 20px;
+             font-family: sans-serif;
+             font-size: 36px;
+             line-height: 40px;
+             font-style: normal;
+             font-weight: 400px;
+             color: #ffffff; 
+             
+       }
+       .blk2-paragraph{
+            width: 580px;
+             margin-top: 20px;
+             font-family: sans-serif;
+             font-size: 16px;
+             line-height: 26px;
+             font-style: normal;
+             font-weight: 400px;
+             color: #ffffff; 
+             
+       }
+       .blk2-btn{
+       
+            width: 138px;
+            height: 42px;
+             margin: 20px auto 45px 0;
+             font-family: sans-serif;
+             font-size: 14px;
+             line-height: 26px;
+             font-style: normal;
+             font-weight: 400px;
+             background-color: #f1c50e;
+             color:#111111;
+             border: none;
+             
+             
+       }
+       .blk2-img{
+          /* margin:0 auto 0 0; */
+       }
+       /* block2 css ends here */
+        /* block 3 */
+        .block3-container{
+          
+            display: flex;
+            flex-wrap: wrap;
+            /* margin-left: 70px;
+            margin-right: -70px; */
+            /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+           
+        }
+        .blk3-content-container1{
+            
+            width: 50%;
+            height: 387px;
+            background-color: #f1c50e;
+        }
+        .blk3-content-container2{
+            width: 50%;
+            height: 387px;
+            
+            background-image: url(./img/block3-2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          
+        }
+        .blk3-content-container3{
+            width: 50%;
+            height: 387px;
+            background-image: url(./img/block3-3.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .blk3-content-container4{
+           
+            width: 50%;
+            height: 387px;
+            background-color: #db545a;
+        }
+        .core-discipline{
+            width:499px;
+            margin:76px  20px 0px 101px;
+            
+            /* padding-left:101px; */
+            padding-bottom: 101px;
+            font-family:roboto;
+            font-style: normal;
+            font-size: 30px;
+            font-weight:400px;
+            line-height:36px;
+            color:#111111;
+
+        }
+        .blk3-shape1{
+            width:409px;
+            height:76px;
+            margin:8px auto 0px 0px;
+           
+            background-color:#db545a;
+
+        }
+        .blk3-shape2{
+            width:409px;
+            height:76px;
+            margin:8px auto 0px 0px;
+          
+            background-color:#ffffff;
+
+        }
+        .blk3-shape3{
+            width:409px;
+            height:76px;
+            margin:8px auto 0px 0px;
+          
+            background-color:#ffffff;
+
+        }
+        .blk3-shape4{
+            width:409px;
+            height:76px;
+            margin:8px auto 0px 0px;
+            background-color:#f1c50e;
+
+        }
+        .discipline{
+            width:499px;
+            margin:-64px  20px 0px 101px;
+            /* padding-left:101px; */
+            font-family:roboto;
+            font-style: normal;
+            font-size:48px;
+            font-weight:400px;
+            line-height:53px;
+            color:#111111;
+
+        }
+        .blk3-paragraph{
+            width:460px;
+            margin:20px 59px 0px 101px;
+            /* padding-left:101px; */
+            font-family:roboto;
+            font-style:normal;
+            font-size:16px;
+            font-weight:400px;
+            line-height:26px;
+            color:#111111;
+
+        }
+        .white-font{
+            color:#ffffff
+        }
+        .arrow-icon-box{
+           
+           
+            padding-left:101px;
+        }
+        .arrow-icon{
+            height: 45px;
+            width: 45px;
+           
+           
+        }
+        /* block 4 css */
+        .block4-container{
+            height: 537px;
+             width: 100%;
+             /* margin-left: 70px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+            
+            
+           
+        
+        }
+        .blk4-image-container{
+            height: 537px;
+            width: 100%;
+            display: flex;
+           background-image: url(./img/blk4-bg.png);
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center;
+           
+           
+            
+        }
+        
+        .blk4-header-container1{
+            width:25%;
+            height: 350px;
+            margin:145px auto 43px 100px;
+           
+        }
+        .zero-two{
+            width:245px;
+            margin:5px 0px 0px 0px;
+           
+            font-family:roboto, sans-sefif;
+            font-size:168px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:185px;
+            color:#ffffff;
+
+        }
+       .blk4-header-container2{
+            width:75%;
+            height: 350px;
+            margin:145px auto 43px 0px;
+        }
+        .blk4-heading3{
+            width:735px;
+            margin:15px 0px 0px 0px;
+           
+            font-family:roboto, sans-sefif;
+            font-size:20px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:24px;
+            color:#ffffff;
+
+        }
+        .blk4-heading2{
+            width:735px;
+            margin:20px 0px 0px 0px;
+            
+            font-family:roboto, sans-sefif;
+            font-size:36px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:36px;
+            color:#ffffff;
+
+        }
+        .blk4-paragraph{
+            width:735px;
+            margin:20px 0px 0px 0px;
+           
+            font-family:roboto, sans-sefif;
+            font-size:16px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:26px;
+            color:#ffffff;
+
+        }
+        .blk4-btn{
+            width:129px;
+            height:42px;
+            margin:20px auto 0px 0px;
+            padding:10px 30px;
+            font-family:opensans, sans-sefif;
+            font-size:14px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:22px;
+            background-color: #047cec;
+            border: none;
+
+        }
+
+        /* block 5 css */
+        
+       
+       .wrapper{
+           
+           width: 100%;
+           height: 754px;
+           display: flex;
+           /* margin-left: 70px;
+           box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            */
+           
+       }
+       .container1{
+        width: 50%;
+        height: 750px;
+        
+        display: flex;
+       flex-wrap: wrap;
+        
+       }
+       .img-container2{
+         
+           background-color: #db545a;
+       }
+       .blk5-discipline{
+        width:270px;
+        height:42px;
+        justify-content: center;
+        margin:0px 20px 0px 20px;
+        margin-top: 150px;
+
+        font-family:opensans, sans-sefif;
+        font-size:48px;
+        font-style:normal;
+        font-weight:400px;
+        line-height:53px;
+        color:#ffffff;
+
+       }
+       .blk5-btn{
+        width:138px;
+        height:42px;
+        margin: 20px auto 30px 100px;
+        border: none;
+
+        font-family:opensans, sans-sefif;
+        font-size:14px;
+        font-style:normal;
+        font-weight:400px;
+        line-height: 22px;
+        color:#111111;
+        background-color:#f1c50e;
+       }
+
+       .img-container1{
+           background-image: url(./img/block5-1.jpeg);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+
+       }
+       .img-container3{
+           background-image: url(./img/block5-2.jpeg);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+
+       }
+       .img-container4{
+           background-image: url(./img/block5-3.jpeg);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+       }
+       .box-size{
+           width:50%;
+           height: 377px;
+           
+           
+       }
+       .container2{
+          width: 50%; 
+          height: 754px;
+          background-image: url(./img/block5-4.jpeg);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           
+         
+         
+        }
+        .image-size{
+            width: 100%;
+            height: 377px;
+        }
+        .big-image-size{
+            /* width:100%;
+            height: 754px; */
+        }
+        /* block 6 css */
+        .block6-container{
+            /* margin-left: 70px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+            height: 475px;
+            width:100%;
+            display: flex;
+
+        }
+        .blk6-header-container1{
+            width: 33%;
+            height: 475px;
+            background-color:#478ac9;
+            
+        }
+    
+        .blk6-heading3{
+            width:298px;
+            margin:35px 19px 0px 96px;
+            font-family:roboto, sans-serif;
+            font-size:30px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:36px;
+            color:#ffffff;
+           
+
+            
+        }
+        .blk6-heading2{
+            
+            width:296px;
+            margin:20px 21px 0px 96px;
+            font-family: lora,serif;
+            font-size:48px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:53px;
+            color:#ffffff;
+            
+
+        }
+        .blk6-paragraph{
+            width:296px;
+            margin:20px 21px 35px 96px;
+            font-family:open sans, sans-sefif;
+            font-size:16px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:26px;
+            color:#ffffff;
+
+        }
+
+        .blk6-header-container2{
+            width: 67%;
+            height: 475px;
+            background-image: url(./img/block6-1.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+           background-size: cover;
+            
+        }
+        .zero-three{
+            width:210px;
+            margin:230px 50px 74px 0px;
+            
+            font-family:roboto, sans-serif;
+            font-size:168px;
+            font-weight:700px;
+            line-height:185px;
+            color:#ffffff;
+            float:right;
+
+            
+        }
+        .block7-container{
+            height: 509px;
+            width:100%;
+            display: flex;
+
+        }
+        .blk7-header-container1{
+            width: 50%;
+            height: 509px;
+            background-image: url(./img/block7-1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+           background-size: cover;
+            
+        }
+        .blk7-heading3{
+            width:505px;
+            margin:87px 0px 0px 76px;
+            font-family: roboto, sans-sefif;
+            font-size:20px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:24px;
+            color:#ffffff;
+
+        }
+        .blk7-heading2{
+            width:505px;
+            margin:20px 0px 0px 76px;
+            font-family: lora; sefif;
+            font-size:48px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:53px;
+            color:#ffffff;
+
+        }
+        .blk7-paragraph{
+            width:505px;
+            margin:20px 0px 0px 76px;
+            font-family: open sans, sans-sefif;
+            font-size:16px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:26px;
+            color:#ffffff;
+
+            
+        }
+        .blk7-header-container2{
+            width: 50%;
+            height: 509px;
+            background-image: url(./img/block7-2.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+           background-size: cover;
+            
+        }
+        .social-icon{
+            width:230px;
+            margin:20px auto 118px 76px;
+            font-family: open sans, sans-sefif;
+            font-size:16px;
+            font-style:normal;
+            font-weight:400px;
+            line-height:0px;
+           
+
+
+        }
+        .fa{
+            padding:5px;
+            font-size: 16px;
+            background-color: #111111;
+            color:#e6a483;
+            text-decoration: none;
+            border-radius: 50%;
+            
+
+        }
+        .footer-text{
+            text-align: center;
+            background-color: black;
+            color:white;
+            height: 40px;
+            padding:10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- bootstrap Nav bar  -->
+    <nav class="navbar navbar-dark bg-dark  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ArtAcademics</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark navbar-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Art Academics</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end  flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Core Discipline
+                  </a>
+                  <ul class="dropdown-menu   navbar-dark" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Architecture</a></li>
+                    <li><a class="dropdown-item" href="#">Design</a></li>
+                    <li><a class="dropdown-item" href="#">Fine Arts </a></li>
+                    <li><a class="dropdown-item" href="#">Humanities</a></li>
+                   
+                  </ul>
+                </li>
+              </ul>
+              <!-- <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav> 
+    
+    <!-- nav bar ends -->
+
+     <!-- block 1 starts here -->
+     <div class="block1-container">
+        <div class="image-container">
+            
+            <div class="blk1-header-container">
+                    <h1 class="overview-title">Overview</h1>
+                    <h1 class="school-name">Art Academics</h1>
+                    <p class="intro-text">Our academic programs support creative practitioners who strive for a world that's brighter, more inclusive, relentlessly innovative, and ecologically resilient.</p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- block 1 ends here -->
+     
+    <!-- block 2 starts here -->
+    <div class="block2-container">
+        <div class="blk2-content-container1">
+            <h1 class="zero-one">01</h1>
+        </div>
+        <div class="blk2-content-container2">
+            <h3 class="blk2-about-us">About Us</h3>
+            <h2 class="blk2-heading2">Immerse yourself in our creative culture</h2>
+            <p class="blk2-paragraph">Pursue your passions at California College of the Arts, where diverse practices meet and inspiration is at every turn. With access to the Bay Area's creative communities and thriving industries, you'll take part in exciting
+                collaborations, deepen your practice, and learn from art and design leaders, including our renowned faculty.</p>
+            <button class="blk2-btn"type="submit">Read More</button>
+        </div>
+        <div class="blk2-content-container3">
+            <img class="blk2-img" src="./img/block2-1.jpeg" alt="">
+        </div>
+    </div>
+    
+     <!-- block 2 ends here -->
+    
+    <!-- block 3 -->
+    <div class="block3-container">
+        <!-- row 1 -->
+        <div class="blk3-content-container1">
+            <h3 class="core-discipline">CORE DISCIPLINE</h3>
+            <div class="blk3-shape1">
+                <h2 class="discipline">Architecture</h2>
+            </div>
+            <p class ="blk3-paragraph">Connect theoretical speculation and material innovation with experimental design methods in our four academic programs and five research labs.</p>
+            <div class="arrow-icon-box">
+                <img class= "arrow-icon" src="./img/right-arrow.png" alt="">
+              
+            </div>
+            
+        </div>
+
+        <div class="blk3-content-container2">
+            <h3 class="core-discipline white-font">CORE DISCIPLINE</h3>
+            <div class="blk3-shape2">
+                <h2 class="discipline">Design</h2>
+            </div>
+            <p class ="blk3-paragraph white-font">Develop the skills to imagine and create new kinds of objects, images, systems, and interactions that contribute meaningfully to our world.</p>
+            <div class="arrow-icon-box">
+                <img class="arrow-icon" src="./img/yellow-right-arrow.png" alt="">
+                
+            </div>
+        </div>
+        <!-- row 2 -->
+        <div class="blk3-content-container3">
+            <h3 class="core-discipline white-font">CORE DISCIPLINE</h3>
+            <div class="blk3-shape3">
+                <h2 class="discipline">Fine Arts</h2>
+            </div>
+            <p class ="blk3-paragraph white-font"> Find your voice, identify your audience, and make your mark in the expansive worlds of contemporary art, craft, and digital media.</p>
+            <div class="arrow-icon-box">
+                <img class="arrow-icon" src="./img/yellow-right-arrow.png" alt="">
+            </div>
+        </div>
+
+        <div class="blk3-content-container4">
+            <h3 class="core-discipline white-font">CORE DISCIPLINE</h3>
+            <div class="blk3-shape4">
+                <h2 class="discipline white-font">Humanities</h2>
+            </div>
+            <p class ="blk3-paragraph white-font">Explore critical thinking as a creative act and advance cultural engagement through research, studio work, and writing.</p>
+            <div class="arrow-icon-box">
+                <img class="arrow-icon" src="./img/yellow-right-arrow.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- block 4 -->
+    <div class="block4-container">
+        <div class="blk4-image-container">
+            <div class="blk4-header-container1">
+                    <h1 class="zero-two">02</h1>
+            </div>
+
+            <div class="blk4-header-container2">
+                <h3 class="blk4-heading3">Dedicated studio managers</h3>
+                <h2 class="blk4-heading2">Young Artist Studio Program</h2>
+                <p class="blk4-paragraph">With a high level of overlap across disciplines, students use studios and shops to collaborate with friends  from other programs and take their own projects in unexpected directions. Check out a few of our favorite spaces
+                    for cross-disciplinary work below.</p>
+                <button class="blk4-btn" >Read More</button>
+            </div>
+      </div>  
+    </div>
+      
+    <!-- block 5 -->
+    <div class="wrapper">
+    <div class="container1">
+
+        <div class=" box-size img-container1">
+            <!-- <img class="image-size" src="./img/block5-1.jpeg" alt=""> -->
+        </div>
+        
+        <div class=" box-size img-container2">
+            <h2 class="blk5-discipline">What We Do</h2>
+            <button class="blk5-btn">Read More</button>
+        </div>
+        
+        <div class=" box-size img-container3">
+        <!-- <img class="image-size" src="./img/block5-2.jpeg" alt="">   -->
+        </div>
+        
+        <div class=" box-size img-container4">
+        <!-- <img  class="image-size"src="./img/block5-3.jpeg" alt="">   -->
+        </div>
+        
+    </div>
+        <div class="container2">
+                <!-- <img class="big-image-size" src="./img/block5-4.jpeg" alt=""> -->
+        </div>
+</div>
+    
+     <!-- block 6 -->
+    
+     <div class="block6-container">
+       <div class="blk6-header-container1">
+                <h3 class="blk6-heading3">Undergraduate</h3>
+                <h2 class="blk6-heading2">Studios + Shops</h2>
+                <p class="blk6-paragraph">The right tool or material is often exactly what you need to achieve a breakthrough. Our creative spaces, overseen by experienced studio managers, support your work in traditional craftsmanship, digital fabrication, and hybrid
+                    practices.</p>
+            </div>
+        <div class="blk6-header-container2">
+            <!-- <img src="./img/block6-1.jpeg" alt=""> -->
+            <h1 class="zero-three">03</h1>
+        </div>
+        
+            
+    </div>
+    
+
+
+    <!-- block7 -->
+
+    <div class="block7-container">
+            
+        <div class="blk7-header-container1">
+            <h3 class="blk7-heading3">Sample Headline</h3>
+            <h2 class="blk7-heading2">Contact Us</h2>
+            <p class="blk7-paragraph">School of Art + Design
+             143 Art and Design Building <br>
+            408 E. Peabody Drive <br>
+            Champaign, IL 6175 <br>2217-333-0866</p>
+            <div class ="social-icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-behance"></a>
+                <a href="#" class="fa fa-dribbble"></a>
+               
+                
+            </div>
+        </div>
+        <div class="blk7-header-container2">
+            <!-- <img src="" alt=""> -->
+        </div>
+        
+    </div> 
+    <p class="footer-text">&copy Suman Mainal, 2022,All right Reserved</p>
+
+    
+    
+    <!-- bootstrap link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
