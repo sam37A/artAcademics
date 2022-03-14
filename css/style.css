@@ -5,163 +5,193 @@
    
   }
 
-   /* block1 css starts here */
-   .block1-container{
-      height: 761px;
-     width: 100%;
-      background-image: url(../img/hero.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-    background-position: center;
-  }
-
- .image-container{
-    
-  display: flex;
+   /* block 5 css starts here */
   
-  align-items:end;
+   .wrapper{
+           
+    width: 100%;
+    height: 754px;
+    display: flex;
+    /* margin-left: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     */
+    
+}
+.container1{
+ width: 50%;
+ height: 750px;
+ 
+ display: flex;
+flex-wrap: wrap;
+ 
+}
+.img-container2{
+  
+    background-color: #db545a;
+}
+.blk5-discipline{
+ width:270px;
+ height:42px;
+ justify-content: center;
+ margin:0px 20px 0px 20px;
+ margin-top: 150px;
+
+ font-family:opensans, sans-sefif;
+ font-size:48px;
+ font-style:normal;
+ font-weight:400px;
+ line-height:53px;
+ color:#ffffff;
+
+}
+.blk5-btn{
+ width:138px;
+ height:42px;
+ margin: 20px auto 30px 100px;
+ border: none;
+
+ font-family:opensans, sans-sefif;
+ font-size:14px;
+ font-style:normal;
+ font-weight:400px;
+ line-height: 22px;
+ color:#111111;
+ background-color:#f1c50e;
+}
+
+.img-container1{
+    background-image: url(../img/block5-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-container3{
+    background-image: url(../img/block5-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-container4{
+    background-image: url(../img/block5-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-size{
+    width:50%;
+    height: 377px;
+    
+    
+}
+.container2{
+   width: 50%; 
+   height: 754px;
+   background-image: url(../img/block5-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  
   
  }
- .blk1-header-container{
-    
-      padding: 20px;
-      align-items: end;
-    height: 421px;
-    width: 721px;
-    margin: 340px auto 0  0;
-    
-    
-   
-    }
-    .overview-title{
-       width: 681px;
-       margin: 40px 20px 0px 54px;
-       
-       font-family: sans-serif;
-       font-size: 36px;
-       font-style: normal;
-       font-weight: 400px;
-       line-height: 40px;
-       color: #ffffff;
-    } 
-    .school-name{
-      width: 681px;
-       margin: 0px 20px 0px 54px;
-      
-       font-family: sans-serif;
-       font-size: 96px;
-       line-height: 106px;
-       font-style: normal;
-       font-weight: 400px;
-       
-       color: #ffffff;
-    }
-    .intro-text{
-      width: 515px;
-       margin: 20px 186px 40px 54px;
-      
-       font-family: sans-serif;
-       font-size: 16px;
-       line-height: 26px;
-       font-style: normal;
-       font-weight: 400px;
-       color: #ffffff;
-    }
+ .image-size{
+     width: 100%;
+     height: 377px;
+ }
+ .big-image-size{
+     /* width:100%;
+     height: 754px; */
+ }
+
+
+  /* block 5 css ends here */
  
- /* block 1 css ends here */
+ 
 
 
-  /* block2 css starts here */
-  .block2-container{
-    height: 485px;
-    width: 100%;
+
+
+
+  /* block 6 css starts here */
+  .block6-container{
+    /* margin-left: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    height: 475px;
+    width:100%;
     display: flex;
-   
+
+}
+.blk6-header-container1{
+    width: 33%;
+    height: 475px;
+    background-color:#478ac9;
     
 }
-.blk2-content-container1{
-    width: 25%;
-    background-color: #478ac9;
-    padding:20px;
+
+.blk6-heading3{
+    width:298px;
+    margin:35px 19px 0px 96px;
+    font-family:roboto, sans-serif;
+    font-size:30px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:36px;
+    color:#ffffff;
+   
+
+    
 }
-.blk2-content-container2{
-    width: 50%;
-    background-color: #db545a;
-    padding:20px;
+.blk6-heading2{
+    
+    width:296px;
+    margin:20px 21px 0px 96px;
+    font-family: lora,serif;
+    font-size:48px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:53px;
+    color:#ffffff;
+    
+
 }
-.blk2-content-container3{
-    width: 25%;
-   background-color: #478ac9;
-}
-.blk2-img{
-   width: 100%; 
-   height: 485px;
+.blk6-paragraph{
+    width:296px;
+    margin:20px 21px 35px 96px;
+    font-family:open sans, sans-sefif;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:26px;
+    color:#ffffff;
+
 }
 
-.zero-one{
-     width: 270px;
-      margin: 150px 0px 150px 58px;
-      font-family: sans-serif;
-      font-size: 168px;
-      line-height: 185px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
+.blk6-header-container2{
+    width: 67%;
+    height: 475px;
+    background-image: url(../img/block6-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    
 }
-.blk2-about-us{
-      width: 580px;
-      margin-top:33px;
-      font-family: sans-serif;
-      font-size: 30px;
-      line-height: 36px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-     
-}
-.blk2-heading2{
-      width: 580px;
-      margin-top: 20px;
-      font-family: sans-serif;
-      font-size: 36px;
-      line-height: 40px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
-}
-.blk2-paragraph{
-     width: 580px;
-      margin-top: 20px;
-      font-family: sans-serif;
-      font-size: 16px;
-      line-height: 26px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
-}
-.blk2-btn{
+.zero-three{
+    width:210px;
+    margin:230px 50px 74px 0px;
+    
+    font-family:roboto, sans-serif;
+    font-size:168px;
+    font-weight:700px;
+    line-height:185px;
+    color:#ffffff;
+    float:right;
 
-     width: 138px;
-     height: 42px;
-      margin: 20px auto 45px 0;
-      font-family: sans-serif;
-      font-size: 14px;
-      line-height: 26px;
-      font-style: normal;
-      font-weight: 400px;
-      background-color: #f1c50e;
-      color:#111111;
-      border: none;
-      
-      
+    
 }
-.blk2-img{
-   /* margin:0 auto 0 0; */
-}
-/* block2 css ends here */
+
+/* block 6 css ends here */
 
 
  
