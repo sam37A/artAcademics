@@ -5,163 +5,95 @@
    
   }
 
-   /* block1 css starts here */
-   .block1-container{
-      height: 761px;
-     width: 100%;
-      background-image: url(../img/hero.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-    background-position: center;
-  }
-
- .image-container{
-    
-  display: flex;
-  
-  align-items:end;
-  
- }
- .blk1-header-container{
-    
-      padding: 20px;
-      align-items: end;
-    height: 421px;
-    width: 721px;
-    margin: 340px auto 0  0;
-    
-    
-   
-    }
-    .overview-title{
-       width: 681px;
-       margin: 40px 20px 0px 54px;
-       
-       font-family: sans-serif;
-       font-size: 36px;
-       font-style: normal;
-       font-weight: 400px;
-       line-height: 40px;
-       color: #ffffff;
-    } 
-    .school-name{
-      width: 681px;
-       margin: 0px 20px 0px 54px;
-      
-       font-family: sans-serif;
-       font-size: 96px;
-       line-height: 106px;
-       font-style: normal;
-       font-weight: 400px;
-       
-       color: #ffffff;
-    }
-    .intro-text{
-      width: 515px;
-       margin: 20px 186px 40px 54px;
-      
-       font-family: sans-serif;
-       font-size: 16px;
-       line-height: 26px;
-       font-style: normal;
-       font-weight: 400px;
-       color: #ffffff;
-    }
- 
- /* block 1 css ends here */
-
-
-  /* block2 css starts here */
-  .block2-container{
-    height: 485px;
-    width: 100%;
+   /* block7 css starts here */
+   .block7-container{
+    height: 509px;
+    width:100%;
     display: flex;
-   
+
+}
+.blk7-header-container1{
+    width: 50%;
+    height: 509px;
+    background-image: url(../img/block7-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
     
 }
-.blk2-content-container1{
-    width: 25%;
-    background-color: #478ac9;
-    padding:20px;
+.blk7-heading3{
+    width:505px;
+    margin:87px 0px 0px 76px;
+    font-family: roboto, sans-sefif;
+    font-size:20px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:24px;
+    color:#ffffff;
+
 }
-.blk2-content-container2{
+.blk7-heading2{
+    width:505px;
+    margin:20px 0px 0px 76px;
+    font-family: lora; sefif;
+    font-size:48px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:53px;
+    color:#ffffff;
+
+}
+.blk7-paragraph{
+    width:505px;
+    margin:20px 0px 0px 76px;
+    font-family: open sans, sans-sefif;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:26px;
+    color:#ffffff;
+
+    
+}
+.blk7-header-container2{
     width: 50%;
-    background-color: #db545a;
-    padding:20px;
+    height: 509px;
+    background-image: url(../img/block7-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    
 }
-.blk2-content-container3{
-    width: 25%;
-   background-color: #478ac9;
-}
-.blk2-img{
-   width: 100%; 
-   height: 485px;
-}
+.social-icon{
+    width:230px;
+    margin:20px auto 118px 76px;
+    font-family: open sans, sans-sefif;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:0px;
+   
 
-.zero-one{
-     width: 270px;
-      margin: 150px 0px 150px 58px;
-      font-family: sans-serif;
-      font-size: 168px;
-      line-height: 185px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
-}
-.blk2-about-us{
-      width: 580px;
-      margin-top:33px;
-      font-family: sans-serif;
-      font-size: 30px;
-      line-height: 36px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-     
-}
-.blk2-heading2{
-      width: 580px;
-      margin-top: 20px;
-      font-family: sans-serif;
-      font-size: 36px;
-      line-height: 40px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
-}
-.blk2-paragraph{
-     width: 580px;
-      margin-top: 20px;
-      font-family: sans-serif;
-      font-size: 16px;
-      line-height: 26px;
-      font-style: normal;
-      font-weight: 400px;
-      color: #ffffff; 
-      
-}
-.blk2-btn{
 
-     width: 138px;
-     height: 42px;
-      margin: 20px auto 45px 0;
-      font-family: sans-serif;
-      font-size: 14px;
-      line-height: 26px;
-      font-style: normal;
-      font-weight: 400px;
-      background-color: #f1c50e;
-      color:#111111;
-      border: none;
-      
-      
 }
-.blk2-img{
-   /* margin:0 auto 0 0; */
+.fa{
+    padding:5px;
+    font-size: 16px;
+    background-color: #111111;
+    color:#e6a483;
+    text-decoration: none;
+    border-radius: 50%;
+    
+
 }
-/* block2 css ends here */
+.footer-text{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height: 40px;
+    padding:10px;
+}
+/* block 7 css ends here */
 
 
  
