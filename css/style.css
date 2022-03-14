@@ -5,8 +5,7 @@
    
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
    /* block3 css starts here */
    .block3-container{
           
@@ -211,7 +210,6 @@
     margin:20px 0px 0px 0px;
    
     font-family:roboto, sans-sefif;
-=======
    /* block 5 css starts here */
   
    .wrapper{
@@ -437,14 +435,14 @@ flex-wrap: wrap;
     width:296px;
     margin:20px 21px 35px 96px;
     font-family:open sans, sans-sefif;
->>>>>>> body-block5-6
+
     font-size:16px;
     font-style:normal;
     font-weight:400px;
     line-height:26px;
     color:#ffffff;
 
-<<<<<<< HEAD
+
 }
 .blk4-btn{
     width:129px;
@@ -462,8 +460,8 @@ flex-wrap: wrap;
 }
 
   /* block 4 css ends here */
-=======
-}
+
+
 
 .blk6-header-container2{
     width: 67%;
@@ -489,10 +487,10 @@ flex-wrap: wrap;
 }
 
 /* block 6 css ends here */
->>>>>>> body-block5-6
-=======
+ 
 
-}
+
+
 .fa{
     padding:5px;
     font-size: 16px;
@@ -511,7 +509,7 @@ flex-wrap: wrap;
     padding:10px;
 }
 /* block 7 css ends here */
->>>>>>> footer-block-7
+
 
 
  
