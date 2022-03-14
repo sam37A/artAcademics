@@ -5,6 +5,7 @@
    
   }
 
+<<<<<<< HEAD
    /* block3 css starts here */
    .block3-container{
           
@@ -209,12 +210,170 @@
     margin:20px 0px 0px 0px;
    
     font-family:roboto, sans-sefif;
+=======
+   /* block 5 css starts here */
+  
+   .wrapper{
+           
+    width: 100%;
+    height: 754px;
+    display: flex;
+    /* margin-left: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     */
+    
+}
+.container1{
+ width: 50%;
+ height: 750px;
+ 
+ display: flex;
+flex-wrap: wrap;
+ 
+}
+.img-container2{
+  
+    background-color: #db545a;
+}
+.blk5-discipline{
+ width:270px;
+ height:42px;
+ justify-content: center;
+ margin:0px 20px 0px 20px;
+ margin-top: 150px;
+
+ font-family:opensans, sans-sefif;
+ font-size:48px;
+ font-style:normal;
+ font-weight:400px;
+ line-height:53px;
+ color:#ffffff;
+
+}
+.blk5-btn{
+ width:138px;
+ height:42px;
+ margin: 20px auto 30px 100px;
+ border: none;
+
+ font-family:opensans, sans-sefif;
+ font-size:14px;
+ font-style:normal;
+ font-weight:400px;
+ line-height: 22px;
+ color:#111111;
+ background-color:#f1c50e;
+}
+
+.img-container1{
+    background-image: url(../img/block5-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-container3{
+    background-image: url(../img/block5-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-container4{
+    background-image: url(../img/block5-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-size{
+    width:50%;
+    height: 377px;
+    
+    
+}
+.container2{
+   width: 50%; 
+   height: 754px;
+   background-image: url(../img/block5-4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  
+  
+ }
+ .image-size{
+     width: 100%;
+     height: 377px;
+ }
+ .big-image-size{
+     /* width:100%;
+     height: 754px; */
+ }
+
+
+  /* block 5 css ends here */
+ 
+ 
+
+
+
+
+
+  /* block 6 css starts here */
+  .block6-container{
+    /* margin-left: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    height: 475px;
+    width:100%;
+    display: flex;
+
+}
+.blk6-header-container1{
+    width: 33%;
+    height: 475px;
+    background-color:#478ac9;
+    
+}
+
+.blk6-heading3{
+    width:298px;
+    margin:35px 19px 0px 96px;
+    font-family:roboto, sans-serif;
+    font-size:30px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:36px;
+    color:#ffffff;
+   
+
+    
+}
+.blk6-heading2{
+    
+    width:296px;
+    margin:20px 21px 0px 96px;
+    font-family: lora,serif;
+    font-size:48px;
+    font-style:normal;
+    font-weight:400px;
+    line-height:53px;
+    color:#ffffff;
+    
+
+}
+.blk6-paragraph{
+    width:296px;
+    margin:20px 21px 35px 96px;
+    font-family:open sans, sans-sefif;
+>>>>>>> body-block5-6
     font-size:16px;
     font-style:normal;
     font-weight:400px;
     line-height:26px;
     color:#ffffff;
 
+<<<<<<< HEAD
 }
 .blk4-btn{
     width:129px;
@@ -232,6 +391,34 @@
 }
 
   /* block 4 css ends here */
+=======
+}
+
+.blk6-header-container2{
+    width: 67%;
+    height: 475px;
+    background-image: url(../img/block6-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    
+}
+.zero-three{
+    width:210px;
+    margin:230px 50px 74px 0px;
+    
+    font-family:roboto, sans-serif;
+    font-size:168px;
+    font-weight:700px;
+    line-height:185px;
+    color:#ffffff;
+    float:right;
+
+    
+}
+
+/* block 6 css ends here */
+>>>>>>> body-block5-6
 
 
  
